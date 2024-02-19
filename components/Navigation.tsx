@@ -11,18 +11,6 @@ export default function Navigation() {
       <div className="flex w-full gap-2 sm:w-fit">
         <CommandDialogDemo />
         <ModeToggle />
-        <Link
-          passHref
-          prefetch={false}
-          aria-label="Support project"
-          href={"https://github.com/DariusLukasukas/nextjs-weather-app"}
-          className="shrink-0"
-        >
-          <Button variant={"default"} className="h-9">
-            <GitHubLogoIcon className="h-4 w-4 md:mr-1" />
-            <span className="hidden md:block">Support Project</span>
-          </Button>
-        </Link>
       </div>
     </nav>
   )
